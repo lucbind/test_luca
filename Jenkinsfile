@@ -4,7 +4,7 @@ pipeline {
         // variabili per identificare l'autonomous  
         dbname="JSONATTACK"    
     }   
-       
+    stages {   
         stage('Get Wallet') {       
                 environment { 
                       corret_status="AVAILABLE"
@@ -26,5 +26,6 @@ pipeline {
                     sh 'touch pippo'
                 }
             }  
-        }     
+        }  
+    }   
 }       
