@@ -23,7 +23,7 @@ pipeline {
                         }
                 }                      
                 script {
-                    sh '''touch pippo'''
+                    sh 'touch pippo'
                 }
             }  
         }     
